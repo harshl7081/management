@@ -1,0 +1,24 @@
+.paginationBtns {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    /* padding: 10px;
+    padding-bottom: 20px; */
+  }
+  
+  .paginationBtns a {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .paginationActive a {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .paginationDisabled a {
+    color: #ccc;
+  }
+  
